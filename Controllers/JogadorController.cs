@@ -45,7 +45,7 @@ namespace LabSemana5.Controllers
 
             if (i>=18)
               {return"Jogador Profissional";}
-            else if ( i<18)
+            else if ( i<18||i>12)
               {return"Jogador Juvenil";}
             else
               {return"Jogador Infantil";}
